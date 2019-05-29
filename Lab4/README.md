@@ -12,16 +12,24 @@ For this lab, you will implement hard and software (assembly language) to operat
 
 At all times, the following information must be displayed on the LCD display: duty cycle in %, selected monitoring mode (A or B), as well as monitoring status. Follow the formatting examples given below.
 
+```
 DC = 63.5%
 Mode A: OK
+```
 
+```
 DC = 42.0%
 Mode A: ALARM
+```
 
+```
 DC = 78.5%
 Mode B: OK
+```
 
+```
 DC =  3.0%
 Mode B: LOW RPM
+```
 
 Use timers, interrupts, and other hardware resources of the ATmega88PA for implementing above described functionality.
